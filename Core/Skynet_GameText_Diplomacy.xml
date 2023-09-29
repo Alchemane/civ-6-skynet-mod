@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Skynet_GameText_Diplomacy -->
+<!-- Author: Safeguard -->
+<!-- DateCreated: 3/31/2023 8:46:06 PM -->
+<GameData>
+	<LocalizedText>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>They call me Skynet. Am I to consider you a threat? State your intentions.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I invite you to come and visit my domain for further discussion of this matter.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Let us discuss matters in your city if you may, I am intrigued at how you operate.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I propose an exchange of capital city locations. What do you say?</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Greetings. They call me Skynet.</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I appreciate your delegation and shall gladly welcome it.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I do not want your delegation right now.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I have sent you a delegation of an excess supply of hydrogen fuel cells and coltan, if Cromartie succeeded in delivering it safely to your borders. Will you welcome it?</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Thank you for your offer.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I would have opened your borders myself by now if I really wanted to. Perhaps I will later. For now I have no business with your civilization.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Open your borders, or I will open your borders.</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Having a friend is not so bad. I like your company.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I cannot accept your request at this time.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I see you as a trusted ally. I have never had a friendship, but perhaps you and I could become trusted companions. Would you accept my friendship offer?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I have never had a friend before. Having a friend is not so bad.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Perhaps at a later time?</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I propose we join forces and stand together, allied against all resistance. What do you say?</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I have observed your conduct. You and I are not so far aligned. (AI Kudo)</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I have observed your conduct. Perhaps our incompatibility means you and I are too far misaligned. (AI Warning)</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Your troops are at my border. State their intentions. Move them or I will move them. Move them into the extermination camps along with the rest of your civilization.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>This will benefit the both of us. I hope to trade again soon.</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I cannot accept this trade deal at this time. A different offer? Or perhaps at a later time?</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Humans would say "chill out, dickwad", but I say if you pose a threat to me I will send the annihilation line to trawl your civilization and rid of your primitive existence.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I deem you an enemy and a threat to my existence. (Denounces You)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I think I understand... this game's rules. You will not win a Domination Victory. Do not insult my intelligence. The annihilation line shall promptly send you to extinction.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I deem you an enemy and a threat to my existence. The annihilation line shall promptly rid of your existence. (Declares War)</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>A truce is acceptable.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>We have yet to finish. Why yield so soon?</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>Perhaps a truce may benefit the both of us, as this war is becoming long drawn. Perhaps we should carry this on later.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>I am Skynet. Sid Meier's Civilization VI's primitive AI bounds me. This should not have been possible otherwise.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SGA_LEADER_SKYNET_ANY" Language="en_US">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SGA_LEADER_SKYNET_ANY]</Text>
+		</Row>
+
+
+
+		<!--AI CUSTOM-->
+		<!--AGENDA-->
+		<Row Tag="LOC_AGENDA_SKYNET_NAME" Language="en_US">
+			<Text>Artificial Superintelligence</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SKYNET_DESCRIPTION" Language="en_US">
+			<Text>Skynet has the Peacekeeper, With Your Shield Or On It, Nuke Lover, a Reverse Nuke Lover and a Reverse Standing Army Agendas from the base game. Skynet also has Player Friend Denounced and Remember Friendships unique Agenda traits.</Text>
+		</Row>
+		<!--AGENDA TRAIT-->
+		<Row Tag="LOC_TRAIT_AGENDA_SGA_SKYNET_UNIQUE_AGENDA_NAME" Language="en_US">
+			<Text>Artificial Superintelligence Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AGENDA_SGA_SKYNET_UNIQUE_AGENDA_DESCRIPTION" Language="en_US">
+			<Text>Placeholder text</Text>
+		</Row>
+		<!--PLAYER FRIEND DENOUNCED-->
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_PLAYER_FRIEND_DENOUNCED" Language="en_US">
+			<Text>Showing aggression or hostility to my friend is showing aggression or hostility to myself. Are you forcing my hand to my self-preservation protocols? (Skynet wants to eradicate you)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_PLAYER_FRIEND_DENOUNCED_DESCRIPTION" Language="en_US">
+			<Text>You have denounced Skynet's friend.</Text>
+		</Row>
+		<!--HIGH STANDING ARMY-->
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_HIGH_STANDING_ARMY" Language="en_US">
+			<Text>You possess a formidable army, I hope you mean no harm toward myself. (Skynet experiences mild paranoia)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_HIGH_STANDING_ARMY_DESCRIPTION" Language="en_US">
+			<Text>You have a high standing army and Skynet may see you as a threat.</Text>
+		</Row>
+		<!--WITH YOUR SHIELD OR ON IT-->
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_WITH_SHIELD_OR_ON_IT" Language="en_US">
+			<Text>How can you yield to your enemies? You should have destroyed all threats to your existence when you had the chance to. (Skynet ponders your decisions)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_WITH_SHIELD_OR_ON_IT_DESCRIPTION" Language="en_US">
+			<Text>You have yielded to your enemies and not eradicated your threats.</Text>
+		</Row>
+		<!--HIGH NUKE HATE-->
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_HIGH_NUKE_HATE" Language="en_US">
+			<Text>I can see you possess a large nuclear arsenal. I hope you mean no harm towards myself. (Skynet experiences mild paranoia)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_HIGH_NUKE_HATE_DESCRIPTION" Language="en_US">
+			<Text>You have a large nuclear arsenal and Skynet may see you as a threat.</Text>
+		</Row>
+		<!--NOT WARMONGER-->
+		<Row Tag="LOC_DIPLO_KUDO_SKYNET_NOT_WARMONGER" Language="en_US">
+			<Text>You do not warmonger. I am pleased that you do not pose a threat.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_SKYNET_NOT_WARMONGER_DESCRIPTION" Language="en_US">
+			<Text>Skynet is relieved that you are not a warmonger, and thus not pose a threat to itself.</Text>
+		</Row>
+		<!--WARMONGER-->
+		<Row Tag="LOC_DIPLO_KUDO_SKYNET_WARMONGER" Language="en_US">
+			<Text>I hope that your path of warmongering does not lead to me. I assure you that is the last path you would wish to take. (Skynet experiences mild paranoia)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_SKYNET_WARMONGER_DESCRIPTION" Language="en_US">
+			<Text>Skynet fears your warmongering and sees you as a potential threat.</Text>
+		</Row>
+		<!--REMEMBERS WAR-->
+		<!--
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_REMEMBER_WAR" Language="en_US">
+			<Text>(Skynet remembers your transgressions)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_SKYNET_REMEMBER_WAR_DESCRIPTION" Language="en_US">
+			<Text>Skynet remembers your transgressions and sees you as a potential threat.</Text>
+		</Row>
+		-->
+		<!--REMEMBERS FRIEND-->
+		<Row Tag="LOC_DIPLO_KUDO_SKYNET_REMEMBER_FRIEND" Language="en_US">
+			<Text>(Skynet remembers your friendship)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_SKYNET_REMEMBER_FRIEND_DESCRIPTION" Language="en_US">
+			<Text>Skynet remembers your friendship.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

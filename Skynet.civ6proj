@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>[COLOR_RED]Skynet Civilization Expanded[ENDCOLOR]</Name>
+    <Guid>5c9b0f08-3c50-4011-8271-6e112e75fd23</Guid>
+    <ProjectGuid>31357b0f-2f88-484c-b5e8-d96b70ab90ea</ProjectGuid>
+    <ModVersion>7</ModVersion>
+    <Teaser>Skynet Civilization Expanded</Teaser>
+    <Description>This mod adds [COLOR_RED]Skynet[ENDCOLOR] as a leader from the Terminator Franchise, leading its own Civilization of Hunter-Killers.[NEWLINE]Compatible with Vanilla, RF and GS.[NEWLINE]Also try Skynet Lite!</Description>
+    <Authors>Safeguard</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>First attempt at leader civ</AssemblyName>
+    <RootNamespace>First attempt at leader civ</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Skynet_Config.sql</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Skynet_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Skynet_GameText.xml</File><File>Core/Skynet_GameText_Diplomacy.xml</File><File>Core/Skynet_GameText_Traits.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Skynet_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Skynet_AI.sql</File><File>Core/Skynet_Civilization.sql</File><File>Core/Skynet_Leader.sql</File><File>Core/Global_Projects.sql</File><File>Core/Skynet_Buildings.sql</File><File>Core/Skynet_Districts.sql</File><File>Core/Skynet_Improvements.sql</File><File>Core/Skynet_Units.sql</File><File>Core/Skynet_Agenda.sql</File><File>Core/Skynet_MomentIllustrations.xml</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/Skynet_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/Skynet_GameText.xml</File><File>Core/Skynet_GameText_Diplomacy.xml</File><File>Core/Skynet_GameText_Traits.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="NewAction"><File>Core/Global_Scripts.lua</File></AddGameplayScripts><UpdateColors id="NewAction"><File>Core/Skynet_Colors.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations />]]></AssociationData>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Skynet.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="Core" />
+    <Folder Include="Textures" />
+    <Folder Include="XLPs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Global_Projects.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Global_Scripts.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\HK_Aerial_Ability.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_AI.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Buildings.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Civilization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Districts.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_GameText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_GameText_Diplomacy.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_GameText_Traits.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Improvements.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Leader.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_MomentIllustrations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Skynet_Units.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\TechAndCivicUnlockables_Skynet.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_LEADER_SKYNET.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_LEADER_SKYNET.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SKYNET.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SKYNET.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SKYNET_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SKYNET_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_SKYNET_T800_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_LEADER_SKYNET_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_LEADER_SKYNET_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_LEADER_SKYNET_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_LEADER_SKYNET_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOMENT_SKYNET_CENTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOMENT_SKYNET_CENTRAL_CORE.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOMENT_SKYNET_DEFAULT.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOMENT_SKYNET_HK_AERIAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOMENT_SKYNET_HK_SPIDER_TANK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOMENT_SKYNET_T-800.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MOMENT_SKYNET_TIME_DISPLACEMENT_EQUIPMENT.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderBackgrounds.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Leader_LEADER_SKYNET.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\MomentIllustrations.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

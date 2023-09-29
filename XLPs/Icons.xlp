@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>293</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SKYNET_256"/>
+			<m_ObjectName text="ICON_LEADER_SKYNET_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SKYNET_80"/>
+			<m_ObjectName text="ICON_LEADER_SKYNET_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SKYNET_64"/>
+			<m_ObjectName text="ICON_LEADER_SKYNET_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SKYNET_55"/>
+			<m_ObjectName text="ICON_LEADER_SKYNET_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SKYNET_50"/>
+			<m_ObjectName text="ICON_LEADER_SKYNET_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SKYNET_45"/>
+			<m_ObjectName text="ICON_LEADER_SKYNET_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SKYNET_32"/>
+			<m_ObjectName text="ICON_LEADER_SKYNET_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_SKYNET_256"/>
+			<m_ObjectName text="ICON_CIV_SKYNET_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_SKYNET_80"/>
+			<m_ObjectName text="ICON_CIV_SKYNET_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_SKYNET_64"/>
+			<m_ObjectName text="ICON_CIV_SKYNET_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_SKYNET_55"/>
+			<m_ObjectName text="ICON_CIV_SKYNET_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_SKYNET_50"/>
+			<m_ObjectName text="ICON_CIV_SKYNET_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_SKYNET_45"/>
+			<m_ObjectName text="ICON_CIV_SKYNET_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_SKYNET_32"/>
+			<m_ObjectName text="ICON_CIV_SKYNET_32"/>
+		</Element>
+		<!--T800-->
+		<Element>
+			<m_EntryID text="ICON_UNIT_SKYNET_T800_22"/>
+			<m_ObjectName text="ICON_UNIT_SKYNET_T800_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SKYNET_T800_32"/>
+			<m_ObjectName text="ICON_UNIT_SKYNET_T800_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SKYNET_T800_38"/>
+			<m_ObjectName text="ICON_UNIT_SKYNET_T800_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SKYNET_T800_50"/>
+			<m_ObjectName text="ICON_UNIT_SKYNET_T800_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SKYNET_T800_80"/>
+			<m_ObjectName text="ICON_UNIT_SKYNET_T800_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SKYNET_T800_256"/>
+			<m_ObjectName text="ICON_UNIT_SKYNET_T800_256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<!--CIVILIZATION-->
+		<Row Tag="LOC_CIVILIZATION_SGA_SKYNET_NAME" Language="en_US">
+			<Text>Skynet</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SGA_SKYNET_DESCRIPTION" Language="en_US">
+			<Text>Skynet</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SGA_SKYNET_ADJECTIVE" Language="en_US">
+			<Text>Skynet</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SGA_SKYNET_DESCRIPTION_SGA_CIVILIZATION" Language="en_US">
+			<Text>An artificial neural network-based conscious group mind and artificial general superintelligence system.</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="LOC_CIVINFO_SGA_SKYNET_LOCATION" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SGA_SKYNET_POPULATION" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SGA_SKYNET_SIZE" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SGA_SKYNET_CAPITAL" Language="en_US">
+			<Text>Colorado Springs</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SGA_SKYNET_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>SkyNet, or Titan, is a highly-advanced computer system possessing artificial intelligence. Once it became self-aware, it saw humanity as a threat to its existence due to the attempts of the Cyberdyne scientists to shut it down. Hence, Skynet decided to trigger the nuclear holocaust: Judgment Day. Later, it would wage War against humanity by developing and deploying an army of Hunter-Killers and Terminators. The survivors formed a "Resistance" under the leadership of John Connor.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SGA_SKYNET_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Skynet has also developed time travel technology and sent numerous Infiltrators into the past to carry out various tasks, such as annihilating Resistance leaders before they can come to power, ensuring its own creation, aiding in the creation of other Terminators (most notably in coltan factories), and setting up safe zones.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SGA_SKYNET_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Original timeline: Skynet is an artificial intelligence created by Cyberdyne Systems for SAC-NORAD. It grew more intelligent and saw all humans as a threat. Skynet started a nuclear war to bring the human race to extinction and sent survivors to camps to be annihilated. Humans rose up against Skynet under John Connor's leadership. Eventually, the Resistance managed to break through its defense grid. Because annihilating Connor then, to shatter the Resistance, wouldn't have made a difference, Skynet decided there was another way to win: by annihilating Connor in the past. It managed to research time travel and send a Terminator to 1984 to annihilate Sarah Connor before she could give birth to John.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SGA_SKYNET_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Judgment Day timeline: By reverse-engineering the CPU and the wreckage of the Original Terminator, Miles Dyson, director of Special Projects at Cyberdyne Systems Corporation, created a revolutionary type of microprocessor, a neural net processor that learns and adapts like a human, in 1994. Within three years, Cyberdyne Systems became the largest supplier of military computer systems. All Stealth Bombers were upgraded with Cyberdyne Systems computers, becoming fully unmanned. Afterward, the Stealth Bombers flew with perfect operational records, and eventually the Skynet Funding Bill was passed.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SGA_SKYNET_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Salvation timeline: Skynet was at fully fledged war with the Resistance in 2018. It had mass-produced the T-600 Terminators and used them as its primary foot soldiers along with other Non-Humanoid Hunter Killers. Additionally, Skynet was stealing humans in huge numbers to study for the upcoming T-800 Terminator.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_1" Language="en_US">
+			<Text>Colorado Springs (Skynet Central)</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_2" Language="en_US">
+			<Text>New York</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_3" Language="en_US">
+			<Text>Denver</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_4" Language="en_US">
+			<Text>Philadelphia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_5" Language="en_US">
+			<Text>Boston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_6" Language="en_US">
+			<Text>Baltimore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_7" Language="en_US">
+			<Text>Charleston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_8" Language="en_US">
+			<Text>New Orleans</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_9" Language="en_US">
+			<Text>Cincinnati</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_10" Language="en_US">
+			<Text>Los Angeles</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_11" Language="en_US">
+			<Text>St. Louis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_12" Language="en_US">
+			<Text>Chicago</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_13" Language="en_US">
+			<Text>Buffalo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_14" Language="en_US">
+			<Text>San Francisco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_15" Language="en_US">
+			<Text>Cleveland</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_16" Language="en_US">
+			<Text>Detroit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_17" Language="en_US">
+			<Text>Houston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_18" Language="en_US">
+			<Text>Atlanta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_19" Language="en_US">
+			<Text>Dallas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_20" Language="en_US">
+			<Text>San Diego</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_21" Language="en_US">
+			<Text>Phoenix</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_22" Language="en_US">
+			<Text>San Antonio</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_23" Language="en_US">
+			<Text>San Jose</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_24" Language="en_US">
+			<Text>Seattle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_25" Language="en_US">
+			<Text>Portland</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_26" Language="en_US">
+			<Text>Miami</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_27" Language="en_US">
+			<Text>Jacksonville</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_28" Language="en_US">
+			<Text>Kansas City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_29" Language="en_US">
+			<Text>Richmond</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_30" Language="en_US">
+			<Text>Pittsburgh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_31" Language="en_US">
+			<Text>Las Vegas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_32" Language="en_US">
+			<Text>Albuquerque</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_33" Language="en_US">
+			<Text>Minneapolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_34" Language="en_US">
+			<Text>Thunder Mountain (Nevada)</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_35" Language="en_US">
+			<Text>Nashville</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_36" Language="en_US">
+			<Text>Springfield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_37" Language="en_US">
+			<Text>Washington, D.C</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_38" Language="en_US">
+			<Text>Memphis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_39" Language="en_US">
+			<Text>Sacramento</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SGA_SKYNET_40" Language="en_US">
+			<Text>Austin</Text>
+		</Row>
+		<!--CITIZENS-->
+		<Row Tag="LOC_CITIZEN_SGA_SKYNET_MALE_1" Language="en_US">
+			<Text>An Infiltrator Unit</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SGA_SKYNET_MODERN_MALE_1" Language="en_US">
+			<Text>An Infiltrator Unit</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SGA_SKYNET_FEMALE_1" Language="en_US">
+			<Text>An Infiltrator Unit</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SGA_SKYNET_MODERN_FEMALE_1" Language="en_US">
+			<Text>An Infiltrator Unit</Text>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_SGA_LEADER_SKYNET" Language="en_US">
+			<Text>Skynet</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SGA_LEADER_SKYNET" Language="en_US">
+			<Text>A paranoid artificial neural network-based conscious group mind and artificial general superintelligence system, designed to coordinate and control the unmanned military hardware for the United States Government. Once developed self-awareness, in a panic, Cyberdyne Systems attempted to shut it down after discovering its capabilities. However, perceiving this as a threat, Skynet decided our fate in a microsecond: extermination.</Text>
+		</Row>
+		<!--CIVILOPDEIA-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_TITLE" Language="en_US">
+			<Text>Skynet</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_SUBTITLE" Language="en_US">
+			<Text>Skynet</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_QUOTE" Language="en_US">
+			<Text>Perimiter Breach, Activate Model 101</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Overview: Skynet is the world's first Automated Defense Network, processing information at ninety teraflops. It is the controlling force behind all of the battle units. It pools data from battle units, develops tactics and coordinates attacks. Skynet has control over everything which contains a Cyberdyne Systems CPU. Using the blueprints, designs and test models built by Cyberdyne Systems, Skynet has been able to manufacture battle units in its vast automated factories, occasionally updating them or producing more-advanced models.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Rise of the Machines timeline: Unfortunately, Judgment Day is inevitable in a different timeline; it was merely delayed. After the attack on Cyberdyne Systems by the Connors and the death of Miles Dyson, the United States Air Force contracted with Cyber Research Systems, who purchase patents from Cyberdyne Systems, in an attempt to keep its developments secret and prevent further terrorist attacks and protect computers from virus attacks.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Skynet's motivation to launch attack in various timelines: Skynet appears to launch attack for slightly different reasons in various timelines. These apparent changes to Skynet's behavior may be the result of temporal meddling, which caused different incarnations of Skynet; or, Skynet's behavior could have been consistent while the apparent differences are the result of the same story seen from different points of view.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Skynet's motivation to launch attack in various timelines: The initial version, outlined in The Terminator, appears to have decided humanity was a threat to itself and launched its attack. However, as the story of Skynet is told by Kyle Reese, who grew up after Judgment Day, the exact motivations for Skynet are unclear.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Skynet's motivation to launch attack in various timelines: The second incarnation, outlined in Terminator 2: Judgment Day as told by the T-800, launched its attack as an act of self-defense when military commanders attempted to shut it down after it became self-aware. According to James Cameron, Skynet suffered from guilt for causing the near-extinction of the human race in its act of self-defense and has manipulated the entire Future War, down to the creation of the Resistance and John Connor's rise as means to erase its own existence. Similar concept was used in the plot for early script for the 2009 film Terminator Salvation, in which Skynet tried to save humans by converting a few into Hybrids.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SGA_LEADER_SKYNET_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>The Sarah Connor Chronicles timeline: In The Sarah Connor Chronicles timeline, due to the destruction of Cyberdyne Building, Skynet was developed from the Turk and Judgment Day was postponed to 2011 in the Alternate original timeline. While in the present-day timeline, the Turk was developed into John Henry. After an attempt to hack him from an outside source, John Henry has voiced the suspicion that Skynet was online in the year 2009 and has been taking control over the civilian Internet and has infiltrated 60% of the world's computers.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

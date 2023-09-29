@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Skynet_MomentIllustrations -->
+<!-- Author: Safeguard -->
+<!-- DateCreated: 7/29/2023 9:22:37 PM -->
+
+<GameData>
+	<MomentIllustrations>
+		<!--UNIQUE MOMENT ILLUSTRATIONS-->
+		<!--
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_SGA_SKYNET_CENTRAL"
+			 Texture="MOMENT_SKYNET_CENTRAL.dds"/>
+		-->
+		<!--GENERIC MOMENT ILLUSTRATIONS-->
+	</MomentIllustrations>
+</GameData>
+
+<!--WIP-->

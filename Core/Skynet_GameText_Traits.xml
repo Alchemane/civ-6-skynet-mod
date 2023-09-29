@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Skynet_GameText_Traits -->
+<!-- Author: Safeguard -->
+<!-- DateCreated: 3/31/2023 8:50:35 PM -->
+<GameData>
+	<LocalizedText>
+		<!--LEADER TRAIT-->
+		<Row Tag="LOC_TRAIT_SGA_LEADER_SKYNET_SUPERINTELLIGENCE_NAME" Language="en_US">
+			<Text>Artificial General Superintelligence System</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SGA_LEADER_SKYNET_SUPERINTELLIGENCE_DESCRIPTION" Language="en_US">
+			<Text>Skynet's cities do not require [ICON_Housing] Housing or [ICON_Amenities] Amenities and all cities are fully loyal (RF). Skynet does not suffer from war weariness. Skynet is granted 100% of [icon_techboosted] Technology Boosts. Skynet is penalized through a reduction in [icon_civicboosted] Civic Boosts at only 10%. Skynet cannot build the Theater, Entertainment Complex, Neighborhood or Holy Site districts. Cannot recruit [ICON_GreatArtist] Artists, [ICON_GreatMusician] Musicians, [ICON_GreatProphet] Prophets or [ICON_GreatWriter] Writers. Skynet unique [icon_buildings] buildings provide a multitude of additional traits as they are built.</Text>
+		</Row>
+		<!--CIVILIZATION TRAIT-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SGA_SKYNET_RISE_OF_THE_MACHINES_NAME" Language="en_US">
+			<Text>Rise of the Machines</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SGA_SKYNET_RISE_OF_THE_MACHINES_DESCRIPTION" Language="en_US">
+			<Text>Skynet's cities do not require [icon_food] Food and [icon_citizen] population growth is disabled, and instead achieved through building Skynet's unique [icon_buildings] buildings. Skynet is penalized through a reduction of -1 [icon_movement] Movement to all Hunter-Killer [icon_unit] Units in sea tiles, -30 [icon_strength] Combat Strength reduction against the Giant Death Robot, and a -15 [icon_strength] Combat Strength reduction against all hacked Hunter-Killer [icon_unit] Units. Skynet unique [icon_buildings] buildings provide a multitude of additional traits as they are built.</Text>
+		</Row>
+		<!--SKYNET HUNTER KILLERS-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SGA_SKYNET_HUNTER_KILLERS_NAME" Language="en_US">
+			<Text>Hunter-Killers</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SGA_SKYNET_HUNTER_KILLERS_DESCRIPTION" Language="en_US">
+			<Text>A Hunter-Killer (HK) is an artificially intelligent autonomous war machine, including robot and android. Skynet has access to 10 unique [icon_unit] Units, with 3 unique Hunter-Killer promotion classes. Skynet unique [icon_unit] Units require certain factory facility [icon_buildings] Buildings in order to produce.</Text>
+		</Row>
+		<!--SKYNET Building Facilities-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SGA_SKYNET_BUILDING_FACILITIES_NAME" Language="en_US">
+			<Text>Skynet Facilities</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SGA_SKYNET_BUILDING_FACILITIES_DESCRIPTION" Language="en_US">
+			<Text>Skynet has access to 29 unique [icon_buildings] Buildings and 1 unique improvement. [icon_citizen] Population is increased through building the unique Skynet Facilities. Skynet unique [icon_buildings] buildings provide a multitude of additional traits as they are built.</Text>
+		</Row>
+		<!--DISTRICTS-->
+		<!--SKYNET CENTRAL-->
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_CENTRAL_NAME" Language="en_US">
+			<Text>Skynet Central</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_CENTRAL_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet district which replaces the Spaceport and provides 7 new [icon_buildings] Skynet Facilities. Provides major city garrison strength. Grants a free T-800 unit. All [icon_buildings] buildings in Skynet Central grant a [icon_techboosted] Eureka. Buildings in this district provide a large array of new traits as they are built. Provides +2 air slots. Culture Bombs all adjacent tiles. Skynet Central is the Skynet headquarters in the city ruins of San Francisco.</Text>
+		</Row>
+		<!--SKYNET RESEARCH FACILITIES-->
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_RESEARCH_FACILITIES_NAME" Language="en_US">
+			<Text>Skynet Research Facilities</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_RESEARCH_FACILITIES_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet district which replaces the Campus and provides 7 new [icon_buildings] Skynet Facilities. Upon its creation, Skynet began to learn at a geometric rate, thus for each Skynet Research Facilities [icon_district] District built, the [icon_capital] Capital earns +100% [icon_science] Science. A district for Skynet's innovation of Hunter-Killer units and scientific endeavors.</Text>
+		</Row>
+		<!--SKYNET DEVELOPMENT FACILITIES-->
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_DEVELOPMENT_FACILITIES_NAME" Language="en_US">
+			<Text>Skynet Development Facilities</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_DEVELOPMENT_FACILITIES_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet district which replaces the Industrial Zone and provides 12 new [icon_buildings] Skynet Facilities. Culture Bombs all adjacent tiles. Provides minor city garrison strength. For each Skynet Development Facilities [icon_district] District built, the [icon_capital] Capital sees a 50% [icon_production] Production discount on all Hunter-Killer [icon_unit] Units. This district acts as Skynet's Military-Industrial Complex for the development of Hunter-Killer [icon_unit] Units through it's prerequisite [icon_buildings] factory facilities.</Text>
+		</Row>
+		<!--SKYNET ENCAMPMENT FACILITIES-->
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ENCAMPMENT_FACILITIES_NAME" Language="en_US">
+			<Text>Skynet Encampment Facilities</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ENCAMPMENT_FACILITIES_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet district which replaces the Encampment and provides 2 new additional [icon_buildings] Skynet Facilities. Culture Bombs all adjacent tiles. Provides minor city garrison strength.</Text>
+		</Row>
+		<!--ADJACENCIES-->
+		<!--SCIENCE-->
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ADJACENT_CENTRAL_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>+9 [icon_science] Science when adjacent to a Skynet Central District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ADJACENT_RESEARCH_FACILITIES_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>+5 [icon_science] Science when adjacent to a Skynet Research Facilities District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ADJACENT_DEVELOPMENT_FACILITIES_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>+2 [icon_science] Science when adjacent to a Skynet Development Facilities District.</Text>
+		</Row>
+		<!--PRODUCTION-->
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ADJACENT_CENTRAL_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+7 [icon_science] Science when adjacent to a Skynet Central District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ADJACENT_DEVELOPMENT_FACILITIES_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+5 [icon_science] Science when adjacent to a Skynet Development Facilities District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ADJACENT_RESEARCH_FACILITIES_PRODUCTION_DESCRIPTION" Language="en_US">
+			<Text>+2 [icon_science] Science when adjacent to a Skynet Research Facilities District.</Text>
+		</Row>
+		<!--GOLD-->
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ADJACENT_CENTRAL_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+7 [icon_science] Science when adjacent to a Skynet Central District.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SGA_SKYNET_ADJACENT_DEVELOPMENT_FACILITIES_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+5 [icon_science] Science when adjacent to a Skynet Development Facilities District.</Text>
+		</Row>
+		
+		<!--HUNTER KILLER UNITS-->
+		<!--T600-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_T600_NAME" Language="en_US">
+			<Text>T-600</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_T600_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Melee unit which replaces the Infantry unit, and has the unique Hunter-Killer promotion class. Requires the [icon_buildings] Tier 1 Terminator Factory building. Has 90 [icon_strength] Combat Strength and 2 [icon_movement] Movement. The T-600 is a human-sized Infiltrator that heralded Skynet's shift from the use of Non-Humanoid Hunter Killers to the Humanoid Hunter Killer Units that would become known as Terminators.</Text>
+		</Row>
+		<!--T800-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_T800_NAME" Language="en_US">
+			<Text>T-800</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_T800_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Melee unit which replaces the Mechanized Infantry unit, and has the unique Hunter-Killer promotion class. Requires the [icon_buildings] Tier 2 Terminator Factory building. Has 130 [icon_strength] Combat Strength and 4 [icon_movement] Movement. For each Tier 2 Terminator Factory [icon_buildings] facility built, all current T-800 units gain a [ICON_Promotion] Promotion level. The T-800 Terminator was Skynet's first cybernetic organism, with living tissue over a hyperalloy endoskeleton.</Text>
+		</Row>
+		<!--T900-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_T900_NAME" Language="en_US">
+			<Text>T-900</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_T900_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Melee unit which replaces the Rocket Artillery unit, but is not a Siege unit, and has the unique Hunter-Killer promotion class. Requires the [icon_buildings] Tier 3 Terminator Factory building. Has 135 [icon_strength] Combat Strength and 6 [icon_movement] Movement. The T-900 has a passive ability whereby it is granted +25 [icon_strength] Combat Strength against the Giant Death Robot (GS). The T-900 is a type of Terminator mass-produced by Skynet. The T-900 Terminator is a hyper-alloy armored Humanoid Hunter Killer and served as the infantry for Skynet force. It is the successor to the T-850 and the predecessor to the T-X.</Text>
+		</Row>
+		<!--T810-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_T810_NAME" Language="en_US">
+			<Text>T-810</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_T810_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Melee unit which replaces the Modern AT unit, but is not an Anti-Cavalry unit, and has the unique T-810 promotion class, which has 6 promotions. Requires the [icon_buildings] Tier 3 Terminator Factory building. Has 130 [icon_strength] Combat Strength and 3 [icon_movement] Movement. The T-810 is capable of Ranged Combat, with a 115 [icon_ranged] Ranged Combat Strength and 2 [icon_range] Range. As the tier 1 infantry of Skynet force, the T-810 is equipped with a K-17 laser rifle that can penetrate assault and aviation armor.</Text>
+		</Row>
+		<!--T825-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_T825_NAME" Language="en_US">
+			<Text>T-825</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_T825_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Ranged unit which replaces the Machine Gun unit and has the unique Hunter-Killer promotion class. Requires the [icon_buildings] Tier 2 Terminator Factory building. Has 120 [icon_strength] Combat Strength and 4 [icon_movement] Movement. Has a 125 [icon_ranged] Ranged Combat Strength and 2 [icon_range] Range. T-825 is a variant of the T-800 Terminator. A T-825 carries two R95 plasma rifles, while the variant T-825V carries two V96 plasma rifles.</Text>
+		</Row>
+		<!--HK TANK-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_HK_TANK_NAME" Language="en_US">
+			<Text>HK-Tank</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_HK_TANK_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Heavy-Cavalry unit which replaces the Tank unit and has the unique Hunter-Killer promotion class. Requires the [icon_buildings] Tier 1 HK-Ground Factory building. Has 120 [icon_strength] Combat Strength and 2 [icon_movement] Movement. The HK-Tank is capable of Ranged Combat, with a 125 [icon_ranged] Ranged Combat Strength and 3 [icon_range] Range. Developed from the original T-1, the HK-Tank is several stories tall consisting of massive, individual tank treads and equipped with twin-barreled directional plasma cannons.</Text>
+		</Row>
+		<!--HK SPIDER TANK-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_HK_SPIDER_TANK_NAME" Language="en_US">
+			<Text>HK-Spider Tank</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_HK_SPIDER_TANK_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Heavy-Cavalry unit which replaces the Modern Armor unit and has the unique HK-Spider Tank promotion class, which has 10 promotions. Requires the [icon_buildings] Tier 2 HK-Ground Factory building. Has 145 [icon_strength] Combat Strength and 8 [icon_movement] Movement. The Spider Tank is one of Skynet's Non-Humanoid Hunter Killers as a principal ground-based combat robot utilized as Skynet Assault Battle unit. Spider Tanks have two arms, each equipped with a forward-facing and rear-facing plasma cannon.</Text>
+		</Row>
+		<!--HK FIGHTER-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_HK_FIGHTER_NAME" Language="en_US">
+			<Text>HK-Fighter</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_HK_FIGHTER_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Air Fighter unit which replaces the Jet Fighter unit. Requires the [icon_buildings] Tier 1 HK-Aerial Factory building. Has 125 [icon_strength] Combat Strength and 15 [icon_movement] Movement Range. Has 130 [icon_ranged] Ranged Combat Strength. The HK-Fighter is the standard robot enemy stalking the ruin of Los Angeles. The HK-Fighter is very agile, and is known to hover in place when tracking a target.</Text>
+		</Row>
+		<!--HK BOMBER-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_HK_BOMBER_NAME" Language="en_US">
+			<Text>HK-Bomber</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_HK_BOMBER_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Air Bomber unit which replaces the Jet Bomber unit. Requires the [icon_buildings] Tier 2 HK-Aerial Factory building. Has 145 [icon_strength] Combat Strength and 20 [icon_movement] Movement Range. Has 135 [icon_ranged] Ranged Combat Strength, and 160 [icon_bombard] Bombard Strength. The Hunter Killer Bomber is a larger, more powerful version of the Aerial Hunter-Killer.</Text>
+		</Row>
+		<!--HK AERIAL-->
+		<Row Tag="LOC_UNIT_SGA_SKYNET_HK_AERIAL_NAME" Language="en_US">
+			<Text>HK-Aerial</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_HK_AERIAL_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Light-Cavalry unit which replaces the Helicopter unit and has the unique Hunter-Killer promotion class. Requires the [icon_buildings] Tier 2 HK-Aerial Factory building. Has 140 [icon_strength] Combat Strength and 9 [icon_movement] Movement. The HK-Aerial is WMD capable and is also capable of Ranged Combat, with a 125 [icon_ranged] Ranged Combat Strength and 2 [icon_range] Range. Featuring a devastating array of under-slung and wing-mounted lasers, missiles and plasma cannons, the HK-Aerial is fearsome and terrifying to behold.</Text>
+		</Row>
+		
+		<!--UNIT PROMOTIONS AND ABILITIES-->
+		<!--ABILITIES-->
+		<Row Tag="LOC_ABILITY_SGA_SKYNET_T900_ANTI_GDR_NAME" Language="en_US">
+			<Text>T-900 Anti Giant Death Robot</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SGA_SKYNET_T900_ANTI_GDR_DESCRIPTION" Language="en_US">
+			<Text>The T-900's anti-terminator capabilities gives it a +25 [icon_strength] Combat Strength advantage when against Giant Death Robot class opponent [icon_unit] units.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<!--PROMOTION CLASSES-->
+		<Row Tag="PROMOTION_CLASS_SGA_SKYNET_HK_NAME" Language="en_US">
+			<Text>Hunter-Killer</Text>
+		</Row>
+		<Row Tag="PROMOTION_CLASS_SGA_SKYNET_SPIDER_NAME" Language="en_US">
+			<Text>HK-Spider Tank</Text>
+		</Row>
+		<Row Tag="PROMOTION_CLASS_SGA_SKYNET_T810_NAME" Language="en_US">
+			<Text>T-810 Infantry</Text>
+		</Row>
+		<!--UNIT PROMOTIONS-->
+		<!--HUNTER KILLER PROMOTIONS-->
+		<!--ATTACK AND MOVE-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_ATTACK_AND_MOVE_NAME" Language="en_US">
+			<Text>Attack and Move</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_ATTACK_AND_MOVE_DESCRIPTION" Language="en_US">
+			<Text>Grants [icon_movement] Movement after Attacking, if leftover [icon_movement] allows for it.</Text>
+		</Row>
+		<!--SIEGE-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_SIEGE_NAME" Language="en_US">
+			<Text>HK Siege</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_SIEGE_DESCRIPTION" Language="en_US">
+			<Text>Increased plasma firepower decimates district defenses through an increased +30 [Icon_Strength] Combat Strength against [icon_district] Districts.</Text>
+		</Row>
+		<!--BLITZ-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_BLITZ_NAME" Language="en_US">
+			<Text>Blitz</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_BLITZ_DESCRIPTION" Language="en_US">
+			<Text>Grants a second Attack in the same turn, if leftover [icon_movement] allows for it.</Text>
+		</Row>
+		<!--MOVEMENT-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_MOVEMENT_NAME" Language="en_US">
+			<Text>Movement</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>Grants an additional +1 [icon_movement] Movement to this unit.</Text>
+		</Row>
+		<!--FLANK-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_FLANK_NAME" Language="en_US">
+			<Text>Flank</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_FLANK_DESCRIPTION" Language="en_US">
+			<Text>+100% Flanking bonus.</Text>
+		</Row>
+		<!--SUPPORT-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_SUPPORT_NAME" Language="en_US">
+			<Text>Support</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_SUPPORT_DESCRIPTION" Language="en_US">
+			<Text>+100% Support bonus.</Text>
+		</Row>
+		<!--WMD RESISTANCE-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_WMD_RESISTANCE_NAME" Language="en_US">
+			<Text>WMD Resistance</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_WMD_RESISTANCE_DESCRIPTION" Language="en_US">
+			<Text>Reduces damage from WMD blasts by -50% and -100% from WMD fallout.</Text>
+		</Row>
+		<!--PLASMA-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_PLASMA_NAME" Language="en_US">
+			<Text>Plasma</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_HK_PLASMA_DESCRIPTION" Language="en_US">
+			<Text>An increase in plasma firepower grants a further +11 [icon_strength] Combat Strength to this unit.</Text>
+		</Row>
+		
+		<!--SPIDER TANK PROMOTIONS-->
+		<!--NH101-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH101_NAME" Language="en_US">
+			<Text>Tier 1: NH-101 "Sycophant"</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH101_DESCRIPTION" Language="en_US">
+			<Text>Grants a further +1 [icon_strength] Combat Strength to this unit. NH-101 "Sycophant" is variant of Spider Tank and utilized as tier 1 Assault Battle unit of Skynet force.</Text>
+		</Row>
+		<!--ATTACK AND MOVE-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_ATTACK_AND_MOVE_NAME" Language="en_US">
+			<Text>Attack and Move</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_ATTACK_AND_MOVE_DESCRIPTION" Language="en_US">
+			<Text>Grants [icon_movement] Movement after Attacking, if leftover [icon_movement] allows for it.</Text>
+		</Row>
+		<!--NH107-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH107_NAME" Language="en_US">
+			<Text>Tier 2: NH-107 "Demon"</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH107_DESCRIPTION" Language="en_US">
+			<Text>Grants a further +2 [icon_strength] Combat Strength to this unit. NH-107 "Demon" is variant of Spider Tank and utilized as tier 2 Assault Battle unit of Skynet force. Different from NH-101, its arms are replaced with plasma launcher.</Text>
+		</Row>
+		<!--SIEGE-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_SIEGE_NAME" Language="en_US">
+			<Text>Siege</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_SIEGE_DESCRIPTION" Language="en_US">
+			<Text>Increased plasma firepower decimates district defenses through an increased +50 [Icon_Strength] Combat Strength against [icon_district] Districts.</Text>
+		</Row>
+		<!--NH201-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH201_NAME" Language="en_US">
+			<Text>Tier 3: NH-201 "Inquisitor"</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH201_DESCRIPTION" Language="en_US">
+			<Text>Grants a further +4 [icon_strength] Combat Strength to this unit. NH-207 "Inquisitor" is variant of Spider Tank and utilized as tier 3 Assault Battle unit of Skynet force.</Text>
+		</Row>
+		<!--BLITZ-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_BLITZ_NAME" Language="en_US">
+			<Text>Blitz</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_BLITZ_DESCRIPTION" Language="en_US">
+			<Text>Grants a second Attack in the same turn, if leftover [icon_movement] allows for it.</Text>
+		</Row>
+		<!--NH207-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH207_NAME" Language="en_US">
+			<Text>Tier 4: NH-207 "Chaos"</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH207_DESCRIPTION" Language="en_US">
+			<Text>Grants a further +7 [icon_strength] Combat Strength to this unit. NH-207 "Chaos" is variant of Spider Tank and utilized as tier 3 Assault Battle unit of Skynet force. It is an NH-101 upgraded with two additional missile launchers.</Text>
+		</Row>
+		<!--PLASMA-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_PLASMA_NAME" Language="en_US">
+			<Text>Plasma</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_PLASMA_DESCRIPTION" Language="en_US">
+			<Text>An increase in plasma firepower grants a further +5 [icon_strength] Combat Strength to this unit.</Text>
+		</Row>
+		<!--NH301-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH301_NAME" Language="en_US">
+			<Text>Tier 5: NH-301 "Absolute"</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_NH301_DESCRIPTION" Language="en_US">
+			<Text>Grants a further +11 [icon_strength] Combat Strength to this unit. NH-301 "'Absolute" is variant of Spider Tank and utilized as tier 4 Assault Battle unit of Skynet force. It is an NH-107 upgraded with two additional plasma launchers.</Text>
+		</Row>
+		<!--WMD RESISTANCE-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_WMD_RESISTANCE_NAME" Language="en_US">
+			<Text>WMD Resistance</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_SPIDER_WMD_RESISTANCE_DESCRIPTION" Language="en_US">
+			<Text>Reduces damage from WMD blasts by -50% and -100% from WMD fallout.</Text>
+		</Row>
+		
+		<!--T810 PROMOTIONS-->
+		<!--T833-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_T833_NAME" Language="en_US">
+			<Text>T-833</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_T833_DESCRIPTION" Language="en_US">
+			<Text>Grants a further +5 [icon_strength] Combat Strength to this unit. The T-833 "Judge" is an upgraded version of the T-810, a variant of the T-8xx series Terminator and tier 2 infantry of Skynet force.</Text>
+		</Row>
+		<!--SIEGE-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_SIEGE_NAME" Language="en_US">
+			<Text>Siege</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_SIEGE_DESCRIPTION" Language="en_US">
+			<Text>Increased plasma firepower decimates district defenses through an increased +40 [Icon_Strength] Combat Strength against [icon_district] Districts.</Text>
+		</Row>
+		<!--T883-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_T883_NAME" Language="en_US">
+			<Text>T-883</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_T883_DESCRIPTION" Language="en_US">
+			<Text>Grants a further +8 [icon_strength] Combat Strength to this unit. The T-883 "Reaper" is an upgraded version of the T-833, a variant of the T-8xx series Terminator and tier 4 infantry of Skynet force.</Text>
+		</Row>
+		<!--BLITZ-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_BLITZ_NAME" Language="en_US">
+			<Text>Blitz</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_BLITZ_DESCRIPTION" Language="en_US">
+			<Text>Grants a second Attack in the same turn, if leftover [icon_movement] allows for it.</Text>
+		</Row>
+		<!--T897-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_T897_NAME" Language="en_US">
+			<Text>T-897</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_T897_DESCRIPTION" Language="en_US">
+			<Text>Grants a further +13 [icon_strength] Combat Strength to this unit. The T-897 "Judicator" is an upgraded version of the T-883, a variant of the T-8xx series Terminator and tier 5 infantry of Skynet force.</Text>
+		</Row>
+		<!--WMD RESISTANCE-->
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_WMD_RESISTANCE_NAME" Language="en_US">
+			<Text>WMD Resistance</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SGA_SKYNET_T810_WMD_RESISTANCE_DESCRIPTION" Language="en_US">
+			<Text>Reduces damage from WMD blasts by -50% and -100% from WMD fallout.</Text>
+		</Row>
+		
+		<!--SKYNET FACILITIES BUILDINGS-->
+		<!--SKYNET CENTRAL FACILITIES-->
+		<!--CENTRAL CORE-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_CENTRAL_CORE_NAME" Language="en_US">
+			<Text>Skynet Central Core</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_CENTRAL_CORE_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Central District. Requires the prerequisite Cold-Fusion Reactor [icon_buildings] Building in the Skynet Development Facilities District. Grants +1 [icon_citizen] Population. Grants a free random Technology. Provides all Skynet Units +300% Experience. Skynet Central Core is the facility housing the Skynet's mainframe. Skynet's Central Core was located deep underground within Skynet's main complex.</Text>
+		</Row>
+		<!--HUB-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_HUB_NAME" Language="en_US">
+			<Text>Skynet Hub</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_HUB_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Central District. Grants +1 [icon_citizen] Population. All current [ICON_Unit] units gain a [ICON_Promotion] Promotion level. Grants +1 military policy card slot in any Skynet Government. Grants a free random Technology. Skynet Hub is the facility that houses Skynet mainframe, located in Dismal River, Nebraska in T2 Saga timeline. It is an equivalent of Skynet Core in Original timeline.</Text>
+		</Row>
+		<!--ORBITAL PLATFORM-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_ORBITAL_PLATFORM_NAME" Language="en_US">
+			<Text>Skynet Orbital Platform</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_ORBITAL_PLATFORM_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Central District. Grants +1 [icon_citizen] Population. Grants +1 [icon_movement] Combat Strength to all Hunter-Killer [icon_unit] Units. Reveals the entire map upon completion and all strategic resources which include [ICON_RESOURCE_ALUMINUM] Aluminum, [ICON_RESOURCE_COAL] Coal, [ICON_RESOURCE_HORSES] Horses, [ICON_RESOURCE_IRON] Iron, [ICON_RESOURCE_NITER] Niter, [ICON_RESOURCE_OIL] Oil, and also [ICON_Resource_Uranium] Uranium. Grants +1 [Icon_Traderoute] Trade Route once built. Grants +3 [icon_gold] to all Skynet [icon_traderoute] Trade Routes. Grants +1 economic policy card slot in any Skynet Government. Grants a free random Technology. According to a promotional video by Cyberdyne Systems, Skynet Satellite would be able to read a car license plate in any city around the world from orbit. It could look into a window of any building in the world. It was even able to use thermal vision to check anyone inside, even initiate an attack.</Text>
+		</Row>
+		<!--GRIFFITH OBSERVATORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_GRIFFITH_OBSERVATORY_NAME" Language="en_US">
+			<Text>Skynet Griffith Observatory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_GRIFFITH_OBSERVATORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Central District. Grants +1 [icon_citizen] Population. Grants a free random Technology. Grants +1 [icon_production] to all Skynet [icon_traderoute] Trade Routes. Grants +1 [ICON_GreatScientist] Great Scientist points per turn, to contribute towards 'Greys', human collaborators and allies of Skynet. Griffith Observatory is a museum facility located in Griffith Park in Los Angeles. It has regular scientific and astronomical exhibits for the general public. In the Terminator: Resistance alternate timeline, Skynet Central Core was located under the Griffith Observatory before it was relocated.</Text>
+		</Row>
+		<!--CYBERDYNE SYSTEMS HEADQUARTERS-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_CYBERDYNE_SYSTEMS_HEADQUARTERS_NAME" Language="en_US">
+			<Text>Cyberdyne Systems Headquarters</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_CYBERDYNE_SYSTEMS_HEADQUARTERS_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Central District. Grants +1 [icon_citizen] Population. Grants a free random Technology. Grants +1 [Icon_Traderoute] Trade Route once built. Grants +1 Wildcard policy card slot in any Skynet Government. All current [ICON_Unit] units gain a [ICON_Promotion] Promotion level. Provides Skynet the trait Rise of the Machines whereby all Hunter-Killer [icon_unit] Units gain +50 heal points from Combat. Grants +1 [ICON_GreatScientist] Great Scientist points per turn, to contribute towards 'Greys', human collaborators and allies of Skynet. Cyberdyne System Headquarters is the place where Cyberdyne Systems develops Genisys, along with Mimetic polyalloy and Time Displacement Equipment in 2014.</Text>
+		</Row>
+		<!--CONTROL NEXUS-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_CONTROL_NEXUS_NAME" Language="en_US">
+			<Text>Skynet Control Nexus</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_CONTROL_NEXUS_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Central District. Grants +1 [icon_citizen] Population. Grants a free random Technology. Grants +1 [Icon_Traderoute] Trade Route once built. Grants +1 military policy card and +1 wildcard slots in any Skynet Government. All current [ICON_Unit] units gain a [ICON_Promotion] Promotion level. Provides Skynet the trait Rise of the Machines whereby all Hunter-Killer [icon_unit] Units identified as Melee class receive an [icon_unit] extra copy when produced. Grants all Skynet cities +50% [icon_production] Production towards Military and Hunter-Killer [icon_unit] Units. Skynet Control Nexus is a major Skynet facility, which used be Cyberdyne Systems Laboratory, a complex built deep in the Cheyenne Mountains. Inside the laboratory, there was a small vault that stored the original prototype ACE Battle Armor.</Text>
+		</Row>
+		<!--TIME DISPLACEMENT EQUIPMENT-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_TIME_DISPLACEMENT_EQUIPMENT_NAME" Language="en_US">
+			<Text>Time Displacement Equipment</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_TIME_DISPLACEMENT_EQUIPMENT_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Central District. Grants +1 [icon_citizen] Population. Grants a free random Technology. Grants +1 wildcard slot in any Skynet Government. Grants a free T-800. Perhaps this ace facility is the reason you are granted a free T-800 upon Skynet Central completion? The Time Displacement Equipment (TDE) is a time machine utilized as a tactical time weapon that allows living tissue and mimetic polyalloy to be sent backward and forward in time.</Text>
+		</Row>
+		<!--SKYNET RESEARCH FACILITIES-->
+		<!--VLA-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_VLA_NAME" Language="en_US">
+			<Text>Skynet VLA</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_VLA_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Research Facilities District, which replaces the Library building. Grants +1 [icon_citizen] Population. The Skynet VLA was a Skynet outpost in operation in 2018, containing weapons data and prisoners.</Text>
+		</Row>
+		<!--RD FACILITY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_RD_FACILITY_NAME" Language="en_US">
+			<Text>Skynet Research and Development Facility</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_RD_FACILITY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Research Facilities District, which replaces the University building. Grants +1 [icon_citizen] Population.</Text>
+		</Row>
+		<!--BAKERS HOLLOW-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_BAKERS_HOLLOW_NAME" Language="en_US">
+			<Text>Bakers Hollow</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_BAKERS_HOLLOW_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Research Facilities District. Grants +1 [icon_citizen] Population. Grants a random civic upon completion. Baker's Hollow was a town located in the Sierra Nevada mountain range. Baker's Hollow had been selected as a testing ground for Skynet's Project Theta to determine if the Hybrids would effectively infiltrate into a community.</Text>
+		</Row>
+		<!--BEDFORD FALLS-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_BEDFORD_FALLS_NAME" Language="en_US">
+			<Text>Bedford Falls</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_BEDFORD_FALLS_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Research Facilities District. Grants +1 [icon_citizen] Population. Grants a random civic upon completion. Bedford Falls, Florida, is a "model city" in 2031. However, the town was actually created by Skynet while the residents are Synthetic Humans bred by Skynet and served by Terminators.</Text>
+		</Row>
+		<!--CYBERDYNE SYSTEMS FACILITY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_CYBERDYNE_SYSTEMS_FACILITY_NAME" Language="en_US">
+			<Text>Cyberdyne Systems Facility</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_CYBERDYNE_SYSTEMS_FACILITY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Research Facilities District, which replaces the Research Lab building. Grants +1 [icon_citizen] Population. Grants +1 [ICON_GreatScientist] Great Scientist points per turn, to contribute towards 'Greys', human collaborators and allies of Skynet. Cyberdyne Systems is the tech corporation responsible for the development of Skynet.</Text>
+		</Row>
+		<!--CYBER RESEARCH SYSTEMS FACILITY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_CYBER_RESEARCH_SYSTEMS_FACILITY_NAME" Language="en_US">
+			<Text>Cyber Research Systems Facility</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_CYBER_RESEARCH_SYSTEMS_FACILITY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Research Facilities District. Grants +1 [icon_citizen] Population. Grants +1 [icon_greatgeneral] Great General and +1 [ICON_GreatScientist] Great Scientist points per turn, to contribute towards 'Greys', human collaborators and allies of Skynet. Cyber Research Systems Corporation (CRS) is the corporation which completed the development of Skynet and built the initial Terminator units to replace US soldiers in field combat.</Text>
+		</Row>
+		<!--CYBERDYNE SYSTEMS LABORATORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_CYBERDYNE_SYSTEMS_LABORATORY_NAME" Language="en_US">
+			<Text>Cyberdyne Systems Laboratory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_CYBERDYNE_SYSTEMS_LABORATORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Research Facilities District. Grants +1 [icon_citizen] Population. Grants +1 [icon_greatgeneral] Great General and +1 [ICON_GreatScientist] Great Scientist points per turn, to contribute towards 'Greys', human collaborators and allies of Skynet. Cyberdyne Systems Laboratory, also known as Advanced Defense Systems Complex, is a Cyberdyne Systems complex located in Colorado, where Skynet was developed.</Text>
+		</Row>
+		
+		<!--SKYNET DEVELOPMENT FACILITIES-->
+		<!--COLD FUSION REACTOR-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_COLD_FUSION_REACTOR_NAME" Language="en_US">
+			<Text>Cold-Fusion Reactor</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_COLD_FUSION_REACTOR_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. A prerequisite [icon_buildings] building to the Skynet Central Core. Grants +1 [icon_citizen] Population. Grants +3 [ICON_Power] Power to this City (GS). From intercepted surveillance of video data feed, the Resistance was able to hypothesize that this Central Core was a form of cold fusion reactor, needed to supply Skynet with its tremendous energy requirements.</Text>
+		</Row>
+		<!--SECRET TERMINATOR LAB-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_SECRET_TERMINATOR_LAB_NAME" Language="en_US">
+			<Text>Secret Terminator Lab</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_SECRET_TERMINATOR_LAB_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District, which replaces the Workshop building. Grants +1 [icon_citizen] Population. The Secret Terminator lab is a location in the T2 Trilogy novel series that was constructed under the old Dyson property by Serena Burns for the production of T-101 Infiltrators up to two at a time for units Two through Seven in 2001.</Text>
+		</Row>
+		<!--TIER 1 TERMINATOR FACTORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_TIER_1_TERMINATOR_FACTORY_NAME" Language="en_US">
+			<Text>Tier 1 Terminator Factory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_TIER_1_TERMINATOR_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District, which replaces the Factory building. Grants +2 [icon_citizen] Population. A prerequisite building to the Hunter-Killer Terminator [icon_unit] Unit, the T-600.</Text>
+		</Row>
+		<!--TIER 1 HK GROUND FACTORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_TIER_1_HK_GROUND_FACTORY_NAME" Language="en_US">
+			<Text>Tier 1 HK-Ground Factory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_TIER_1_HK_GROUND_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +1 [icon_citizen] Population. A prerequisite building to the Hunter-Killer HK-Ground [icon_unit] Unit, the HK-Tank.</Text>
+		</Row>
+		<!--TIER 1 HK AERIAL FACTORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_TIER_1_HK_AERIAL_FACTORY_NAME" Language="en_US">
+			<Text>Tier 1 HK-Aerial Factory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_TIER_1_HK_AERIAL_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +1 [icon_citizen] Population. A prerequisite building to the Hunter-Killer HK-Aerial [icon_unit] Unit, the HK-Fighter.</Text>
+		</Row>
+		<!--PLASMA GENERATOR-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_PLASMA_GENERATOR_NAME" Language="en_US">
+			<Text>Plasma Generator</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_PLASMA_GENERATOR_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +1 [icon_citizen] Population. Grants +2 [icon_citizen] Population. Grants +3 [ICON_Power] Power to this City (GS). A technological advancement which gains access to the Tier 2 Hunter-Killer Factory [icon_buildings] Buildings.</Text>
+		</Row>
+		<!--TIER 2 TERMINATOR FACTORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_TIER_2_TERMINATOR_FACTORY_NAME" Language="en_US">
+			<Text>Tier 2 Terminator Factory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_TIER_2_TERMINATOR_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +2 [icon_citizen] Population. For each Tier 2 Terminator Factory [icon_buildings] facility built, all current T-800 units gain a [ICON_Promotion] Promotion level. Grants a -5% [icon_production] production cost reduction for all [icon_unit] Units. A prerequisite building to the Hunter-Killer Terminator [icon_unit] Units, the T-600 and the T-825.</Text>
+		</Row>
+		<!--TIER 2 HK GROUND FACTORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_TIER_2_HK_GROUND_FACTORY_NAME" Language="en_US">
+			<Text>Tier 2 HK-Ground Factory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_TIER_2_HK_GROUND_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +1 [icon_citizen] Population. A prerequisite building to the Hunter-Killer HK-Ground [icon_unit] Unit, the HK-Spider Tank.</Text>
+		</Row>
+		<!--TIER 2 HK AERIAL FACTORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_TIER_2_HK_AERIAL_FACTORY_NAME" Language="en_US">
+			<Text>Tier 2 HK-Aerial Factory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_TIER_2_HK_AERIAL_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +1 [icon_citizen] Population. A prerequisite building to the Hunter-Killer HK-Aerial [icon_unit] Units, the HK-Bomber and the HK-Aerial.</Text>
+		</Row>
+		<!--COLD FUSION GENERATOR-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_COLD_FUSION_GENERATOR_NAME" Language="en_US">
+			<Text>Cold-Fusion Generator</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_COLD_FUSION_GENERATOR_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +2 [icon_citizen] Population. Grants +2 [icon_citizen] Population. Grants +5 [ICON_Power] Power to this City (GS). A technological advancement which gains access to the Tier 3 Hunter-Killer Terminator Factory [icon_buildings] Building.</Text>
+		</Row>
+		<!--TIER 3 TERMINATOR FACTORY-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_TIER_3_TERMINATOR_FACTORY_NAME" Language="en_US">
+			<Text>Tier 3 Terminator Factory</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_TIER_3_TERMINATOR_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +3 [icon_citizen] Population. All current [ICON_Unit] units gain a [ICON_Promotion] Promotion level. An advanced prerequisite building to the Hunter-Killer Terminator [icon_unit] Units, the T-900 and the T-810.</Text>
+		</Row>
+		<!--ANTIMATTER GENERATOR-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_ANTIMATTER_GENERATOR_NAME" Language="en_US">
+			<Text>Antimatter Generator</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_ANTIMATTER_GENERATOR_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Skynet Development Facilities District. Grants +2 [icon_citizen] Population. Grants +9 [ICON_Power] Power to this City (GS). The known apex of Skynet's technological advancement.</Text>
+		</Row>
+		<!--SKYNET OTHER BUILDINGS-->
+		<!--WORK CAMP-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_WORK_CAMP_NAME" Language="en_US">
+			<Text>Skynet Work Camp</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_WORK_CAMP_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Encampment district. Grants +1 [icon_citizen] Population. Skynet Work Camps are extermination camps run by Skynet in the post-Judgment Day future.</Text>
+		</Row>
+		<!--DEPOT 37-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_DEPOT_37_NAME" Language="en_US">
+			<Text>Depot 37</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_DEPOT_37_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Encampment district. Grants +2 [icon_citizen] Population. Depot 37 is a military warehouse located in McGuire Gunnery Range, which becomes one of Skynet's automated production factories in the future. The building has an enclosed nuclear bomb shelter, which made it ideal for storing production materials during the Judgment Day bombings. Cameron was built at Depot 37 at some point in the future.</Text>
+		</Row>
+		<!--HK AERIAL HANGAR-->
+		<Row Tag="LOC_BUILDING_SGA_SKYNET_HK_AERIAL_HANGAR_NAME" Language="en_US">
+			<Text>HK-Aerial Hangar</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_HK_AERIAL_HANGAR_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Facility for the Aerodrome district. Grants +1 [icon_citizen] Population. Provides +3 Air Slots to this district.</Text>
+		</Row>
+		<!--IMPROVEMENTS-->
+		<!--SKYNET OUTPOST-->
+		<Row Tag="LOC_IMPROVEMENT_SGA_SKYNET_OUTPOST_NAME" Language="en_US">
+			<Text>Skynet Outpost</Text>
+		</Row>
+		<Row Tag="LOC_SGA_SKYNET_OUTPOST_DESCRIPTION" Language="en_US">
+			<Text>A unique Skynet Improvement which serves as a Garrison. Storage of plasma cells provides +1 [ICON_Power] Power to this city (GS). Grants fortification bonus. Cannot be built adjacent to another Skynet Outpost.</Text>
+		</Row>
+		<!--GLOBAL HACK PROJECTS-->
+		<!--HACK T800-->
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_T800_SHORT_NAME" Language="en_US">
+			<Text>Hack T-800</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_T800_NAME" Language="en_US">
+			<Text>Resistance Hack T-800 Unit</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_T800_DESCRIPTION" Language="en_US">
+			<Text>Requires the [icon_district] Theater District in order to complete. You have captured a T-800, perfectly intact. Hack and assume control of the T-800 and gain an advantage to Skynet, or other aggressors. The T-800 replaces the Mechanized Infantry unit, and has 130 [Icon_strength] base Combat Strength and 4 [Icon_movement] movement. The T-800 also comes with a unique Hunter-Killer promotion class which has 8 unique promotions. The hacked T-800 has a +15 [icon_strength] Combat Strength advantage against all Skynet Hunter-Killer units. Not for the use of Skynet.</Text>
+		</Row>
+		<!--HACK HK TANK-->
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_HK_TANK_SHORT_NAME" Language="en_US">
+			<Text>Hack HK-Tank</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_HK_TANK_NAME" Language="en_US">
+			<Text>Resistance Hack HK-Tank Unit</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_HK_TANK_DESCRIPTION" Language="en_US">
+			<Text>Requires the [icon_district] Theater District in order to complete. You have captured a HK-Tank, perfectly intact. Hack and assume control of the HK-Tank and gain an advantage to Skynet, or other aggressors. The HK-Tank replaces the Tank unit, and has 120 [Icon_strength] base Combat Strength, 2 [Icon_movement] movement and 125 [icon_ranged] Ranged Combat Strength at 3 [icon_range] Range. The HK-Tank also comes with a unique Hunter-Killer promotion class which has 8 unique promotions. Can be upgraded to the HK-Spider Tank which has a unique Spider Tank promotion class which has 10 unique promotions. The hacked HK-Tank has a +15 [icon_strength] Combat Strength advantage against all Skynet Hunter-Killer units. Not for the use of Skynet.</Text>
+		</Row>
+		<!--HACK HK AERIAL-->
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_HK_AERIAL_SHORT_NAME" Language="en_US">
+			<Text>Hack HK-Aerial</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_HK_AERIAL_NAME" Language="en_US">
+			<Text>Resistance Hack HK-Aerial Unit</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_SGA_SKYNET_GLOBAL_HACK_HK_AERIAL_DESCRIPTION" Language="en_US">
+			<Text>Requires the [icon_district] Theater District in order to complete. You have captured a HK-Aerial, perfectly intact. Hack and assume control of the HK-Aerial and gain an advantage to Skynet, or other aggressors. The HK-Aerial replaces the Helicopter unit, and has 140 [Icon_strength] base Combat Strength and 9 [Icon_movement] movement. The HK-Aerial also comes with a unique Hunter-Killer promotion class which has 8 unique promotions. The hacked HK-Aerial has a +15 [icon_strength] Combat Strength advantage against all Skynet Hunter-Killer units. Not for the use of Skynet.</Text>
+		</Row>
+		<!--MODIFIER STRINGS-->
+		<!--NEGATIVE COMBAT-->
+		<Row Tag="LOC_TRAIT_MODIFIER_NEGATIVE_COMBAT_FROM_GDR_DESCRIPTION" Language="en_US">
+			<Text>-30 against Giant Death Robot Class units.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MODIFIER_NEGATIVE_COMBAT_FROM_T800_DESCRIPTION" Language="en_US">
+			<Text>-15 against hacked T-800 unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MODIFIER_NEGATIVE_COMBAT_FROM_HK_TANK_DESCRIPTION" Language="en_US">
+			<Text>-15 Against hacked HK-Tank unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MODIFIER_NEGATIVE_COMBAT_FROM_HK_SPIDER_TANK_DESCRIPTION" Language="en_US">
+			<Text>-15 against hacked HK-Spider Tank unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MODIFIER_NEGATIVE_COMBAT_FROM_HK_AERIAL_DESCRIPTION" Language="en_US">
+			<Text>-15 against hacked HK-Aerial unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MODIFIER_NEGATIVE_UNIT_MOVEMENT_IN_SEA_DESCRIPTION" Language="en_US">
+			<Text>-1 movement for Hunter-Killer units in Sea Tiles.</Text>
+		</Row>
+		<Row Tag="LOC_T900_ANTI_GDR_DESCRIPTION" Language="en_US">
+			<Text>+25 T-900 Anti Giant Death Robot capabilities.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
